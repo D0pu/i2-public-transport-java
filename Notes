@@ -1,0 +1,10 @@
+ - En quoi une affectation (ou un effet de bord) dans une assertion Java peut-être problématique ?
+
+Si l'option -ea n'est pas active, une affectation dans une assertion ne sera pas faite ce qui modifiera l'environnement et potentiellement retourner des résultats erronés.
+
+1. new Jauge(taille, start);
+2. Jauge nomInstanceJauge;
+3. nomInstanceJauge.estRouge();
+
+
+
